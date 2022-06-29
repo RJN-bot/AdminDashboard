@@ -29,6 +29,8 @@ body {
 .sidebar {
     background-color: var(--primary-500);
     grid-area: 1/1/-1/2;
+    display: grid;
+    grid-template-rows: 1fr 4fr 3fr;
 }
 
 .header {
@@ -67,4 +69,31 @@ body {
 .title h1 {
     color: var(--primary-300);
     font-size: 1.8rem;
+}
+
+/* Sidebar > navigation */
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-inline: 4rem;
+
+}
+
+.navigation h2 {
+    font-size: 1rem;
+    color: var(--primary-300);
+    margin: 0;
+}
+
+.navigation>div {
+    display: flex;
+
+}
+
+.navigation>div>img {
+    width: 1.2rem;
+    padding-right: 1rem;
 }
