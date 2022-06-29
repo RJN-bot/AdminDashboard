@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&display=swap');
+
+/* CSS HEX */
+:root {
+    --primary-900: #050d1eff;
+    --primary-800: #0a193bff;
+    --primary-700: #133276ff;
+    --primary-500: #2563ebff;
+    --primary-400: #92b1f5ff;
+    --primary-300: #c9d8faff;
+    --primary-100: #e4ecfdff;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Source Sans Pro',
+        sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+/* Grid layout */
+.sidebar {
+    background-color: var(--primary-500);
+    grid-area: 1/1/-1/2;
+}
+
+.header {
+    background-color: var(--primary-300);
+    grid-area: 1/2/2/-1;
+}
+
+.projects {
+    background-color: var(--primary-400);
+    grid-area: 2/2/-1/2;
+}
+
+.announcements {
+    background-color: var(--primary-900);
+}
+
+.trending {
+    background-color: var(--primary-700);
+}
+
+/* Sidebar > title */
+
+.title {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title img {
+    width: 2.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.title h1 {
+    color: var(--primary-300);
+    font-size: 1.8rem;
+}
