@@ -51,6 +51,23 @@ body {
     background-color: var(--primary-700);
 }
 
+/* Sidebar */
+
+.sidebar h2 {
+    font-size: 1rem;
+    color: var(--primary-300);
+    margin: 0;
+}
+
+.sidebar>div>div {
+    display: flex;
+}
+
+.sidebar>div>div>img {
+    width: 1.2rem;
+    padding-right: 1rem;
+}
+
 /* Sidebar > title */
 
 .title {
@@ -71,29 +88,18 @@ body {
     font-size: 1.8rem;
 }
 
-/* Sidebar > navigation */
-
 .navigation {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
     padding-inline: 4rem;
-
 }
 
-.navigation h2 {
-    font-size: 1rem;
-    color: var(--primary-300);
-    margin: 0;
-}
-
-.navigation>div {
+.management {
     display: flex;
-
-}
-
-.navigation>div>img {
-    width: 1.2rem;
-    padding-right: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 4rem;
+    padding-top: 30%;
 }
