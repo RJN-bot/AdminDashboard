@@ -39,12 +39,14 @@ nav {
 .header {
     background-color: white;
     grid-area: 1/2/2/-1;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1rem;
     padding-top: 0.5rem;
 }
 
-.projects {
+main {
     grid-area: 2/2/-1/2;
+    padding-inline: 1rem;
+
 }
 
 .announcements {
@@ -237,4 +239,50 @@ nav>div>div>img {
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+
+/* main */
+main h3 {
+    margin: 0;
+}
+
+main h4 {
+    margin: 0;
+}
+
+main .project-grid {
+    padding-block: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--bluish-grey);
+    border-radius: 1rem;
+    padding: 0.75rem;
+    /* width: 10rem; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card p {
+    font-size: 0.8rem;
+    margin: 0;
+    /* margin-block: 0.5rem; */
+    margin-left: 0.1rem;
+}
+
+.card img {
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+
+.card .actions {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-top: 1rem; */
+    padding-top: 1rem;
 }
