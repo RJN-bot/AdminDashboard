@@ -17,49 +17,52 @@
     <div class="container">
 
         <nav>
-            <div class="title">
-                <img src="./assets/dashboard.svg" alt="Dashboard icon">
-                <h1>Dashboard</h1>
-            </div>
-            <div class="navigation">
-                <div>
-                    <img src="./assets/icons/home.svg" alt="">
-                    <a>Home</a>
+            <div class="nav-wrap">
+                <div class="title">
+                    <img src="./assets/dashboard.svg" alt="Dashboard icon">
+                    <h1>Dashboard</h1>
                 </div>
-                <div>
-                    <img src="./assets/icons/profile.svg" alt="">
-                    <a>Profile</a>
+                <div class="navigation">
+                    <div>
+                        <img src="./assets/icons/home.svg" alt="">
+                        <a>Home</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/profile.svg" alt="">
+                        <a>Profile</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/messages.svg" alt="">
+                        <a>Messages</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/history.svg" alt="">
+                        <a>History</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/tasks.svg" alt="">
+                        <a>Tasks</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/community.svg" alt="">
+                        <a>Community</a>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/icons/messages.svg" alt="">
-                    <a>Messages</a>
+                <div class="management">
+                    <div>
+                        <img src="./assets/icons/settings.svg" alt="">
+                        <a>Settings</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/support.svg" alt="">
+                        <a>Support</a>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/privacy.svg" alt="">
+                        <a>Privacy</a>
+                    </div>
                 </div>
-                <div>
-                    <img src="./assets/icons/history.svg" alt="">
-                    <a>History</a>
-                </div>
-                <div>
-                    <img src="./assets/icons/tasks.svg" alt="">
-                    <a>Tasks</a>
-                </div>
-                <div>
-                    <img src="./assets/icons/community.svg" alt="">
-                    <a>Community</a>
-                </div>
-            </div>
-            <div class="management">
-                <div>
-                    <img src="./assets/icons/settings.svg" alt="">
-                    <a>Settings</a>
-                </div>
-                <div>
-                    <img src="./assets/icons/support.svg" alt="">
-                    <a>Support</a>
-                </div>
-                <div>
-                    <img src="./assets/icons/privacy.svg" alt="">
-                    <a>Privacy</a>
-                </div>
+
             </div>
         </nav>
 
@@ -73,13 +76,15 @@
 
                     <div class="user-wrap">
                         <img src="./assets/icons/bell.svg" alt="">
-                        <img src="./assets/avatar.jpg" alt="" class="avatar">
-                        <h1 class="name">Arjun Singh</h1>
+                        <div class="avatar-wrap">
+                            <img src="./assets/avatar.jpg" alt="" class="avatar">
+                            <h1 class="name">Arjun Singh</h1>
+                        </div>
                     </div>
                 </div>
                 <div class="user-bar">
                     <div class="user-greeting">
-                        <img src="./assets/avatar.jpg" alt="" class="avatar">
+                        <img src="./assets/avatar.jpg" alt="">
                         <p>Hi there,<span>Arjun Singh (@arjun)</span></p>
                     </div>
                     <div class="buttons">
@@ -187,11 +192,39 @@
         </main>
 
         <div class="announcements">
-
+            <h3>Announcements</h3>
+            <div class="announcement-box">
+                <div class="announcement">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, cumque.</p>
+                </div>
+                <hr>
+                <div class="announcement">
+                    <h4>Community Share Day</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ratione harum dicta?</p>
+                </div>
+                <hr>
+                <div class="announcement">
+                    <h4>Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam earum tenetur beatae ut
+                        omnis.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="trending">
-
+            <h3>Trending</h3>
+            <div class="trending-box">
+                <div class="trending-user">
+                    <img src="./assets/avatars/monke1.jpeg" alt="">
+                    <p class="user-bio">Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="trending-user">
+                    <img src="./assets/avatars/monke2.jpeg" alt="">
+                    <p class="user-bio">Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
         </div>
     </div>
 
