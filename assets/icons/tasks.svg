@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="67.833 54.238 432.167 352.76" xmlns="http://www.w3.org/2000/svg">
-  <ellipse style="stroke: rgb(0, 0, 0); paint-order: stroke markers; fill: rgb(201, 216, 250); stroke-width: 0px;" cx="127.725" cy="127.725" rx="27.725" ry="27.725"/>
-  <rect style="stroke: rgb(0, 0, 0); fill: rgb(201, 216, 250); fill-rule: nonzero; paint-order: stroke markers; stroke-width: 0px;" x="200" y="100" width="270.256" height="55.45" rx="20" ry="20"/>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(201, 216, 250); paint-order: stroke markers; stroke-width: 0px;" cx="127.725" cy="223.957" rx="27.725" ry="27.725"/>
-  <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(201, 216, 250); paint-order: stroke markers; stroke-width: 0px;" cx="127.725" cy="327.725" rx="27.725" ry="27.725"/>
-  <rect style="stroke: rgb(0, 0, 0); paint-order: stroke markers; fill: rgb(201, 216, 250); stroke-width: 0px;" x="200" y="200" width="270.256" height="55.45" rx="20" ry="20"/>
-  <rect style="stroke: rgb(0, 0, 0); fill: rgb(201, 216, 250); paint-order: stroke markers; stroke-width: 0px;" x="200" y="300" width="270.256" height="55.45" rx="20" ry="20"/>
+  <ellipse style="stroke: rgb(0, 0, 0); paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" cx="127.725" cy="127.725" rx="27.725" ry="27.725"/>
+  <rect style="stroke: rgb(0, 0, 0); fill-rule: nonzero; paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" x="200" y="100" width="270.256" height="55.45" rx="20" ry="20"/>
+  <ellipse style="stroke: rgb(0, 0, 0); paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" cx="127.725" cy="223.957" rx="27.725" ry="27.725"/>
+  <ellipse style="stroke: rgb(0, 0, 0); paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" cx="127.725" cy="327.725" rx="27.725" ry="27.725"/>
+  <rect style="stroke: rgb(0, 0, 0); paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" x="200" y="200" width="270.256" height="55.45" rx="20" ry="20"/>
+  <rect style="stroke: rgb(0, 0, 0); paint-order: stroke markers; stroke-width: 0px; fill: rgb(255, 255, 255);" x="200" y="300" width="270.256" height="55.45" rx="20" ry="20"/>
 </svg>
